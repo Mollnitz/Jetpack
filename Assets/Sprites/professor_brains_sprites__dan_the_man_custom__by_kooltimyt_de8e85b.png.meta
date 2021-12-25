@@ -1,0 +1,2498 @@
+fileFormatVersion: 2
+guid: 5ec0e87cb42f5ad428b1fa39fa97f2d4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 527
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ef3738d9d929d49b06099488f3497f
+      internalID: 1279496165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 528
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62240be8e33727745814c188ee33d04b
+      internalID: 232071039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 527
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d56d969ffb62c942904b091967f704a
+      internalID: 183410780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 526
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf28973359451ae408690fcf76969211
+      internalID: 277286694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_4
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 519
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b094af43ae47974e88ac792b97a3915
+      internalID: -17567857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 525
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554c0812b342cd1489ef7340f2fc193f
+      internalID: 379477789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_6
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 522
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc3730dc06d912469aa78eb446f6f5d
+      internalID: -1449288819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_7
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 522
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7489a2588ffc1b645a5edc69b7d5314f
+      internalID: 2090751553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_8
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 527
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f027c3d17e701c43b44117167916413
+      internalID: 93298502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_9
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 527
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c0b90095044d44ba5db274a8359855
+      internalID: 678386437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_10
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 527
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6884a6e8dec5e104cb75d31cd04373e5
+      internalID: 1592507186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_11
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 527
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eda6a871afa9f40afe739df87223cd
+      internalID: -129112978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_12
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 527
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b71c4e7e53dfd244b159ba82327fa84
+      internalID: -2137785482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_13
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 541
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a1c8fd18103274e8033c1f7a1f7084
+      internalID: 453327207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_14
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 526
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdc3597b55794c478045db606514997
+      internalID: 2140147275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_15
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 524
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2a6c9f3c97b73458fecc216cbd5c9a
+      internalID: -151038187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_16
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 471
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c11ae56b285f54cba6c4abf25f9e32
+      internalID: -1894209878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_17
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 466
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c44532060436f44d9904e0e3a506adc
+      internalID: 63322679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_18
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 471
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86c32e787ae8e146be618a613b6ac7c
+      internalID: 1739716107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_19
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 466
+        width: 36
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc80c381c1ba5144ea5c18b36ab0250f
+      internalID: -1019812929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 462
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2ba45293ae68f47b9c701cb1ed03f9
+      internalID: -1050530404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_21
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 462
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ef1abc325581a49851ef61fe144ff9
+      internalID: -156886531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 462
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48b66a6e3e654a4a906c603d794e171
+      internalID: -205526665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_23
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 462
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9592e9eb39022b4d97dc7f9010fdf84
+      internalID: 815526948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_24
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 462
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74334aa537570cf4f942dcb85ad52e65
+      internalID: 1440310222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 462
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e16c9f77f40ee94f8045540c4045309
+      internalID: -2040679435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_26
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 462
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bf2f9e0cefffd45a4175b47f381446
+      internalID: -1390875928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_27
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 462
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f675dad119a4b4aa8c6dcc86c3305f
+      internalID: -735449294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_28
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 462
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37027635612c1d4ab5b05aabe1628ed
+      internalID: 1267480374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_29
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 462
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f91d065622c3d4084cf5733da3ac4f
+      internalID: 1174690998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_30
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 506
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d3693c9618b6d4ea15357d6fe9ab1a
+      internalID: 1375751565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_31
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 494
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4cdda77d1a37348b4468f357d6c012
+      internalID: 1150787140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_32
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 499
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f965bcd764cb61e40b6c9ab7ef15d060
+      internalID: 90337555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_33
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 484
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8db14501209874a8deb6c2a0283f0c
+      internalID: 1835939114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_34
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 399
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96597a243b8ea2f4d9443ca6ca687681
+      internalID: 1659288635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_35
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 399
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f84c3e36a8dfad4496e5c77c145e6b0
+      internalID: -158202797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_36
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 399
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3479d7abeb2548946b631b1fdbd210dc
+      internalID: -1390130134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_37
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 399
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0705872b340c64f9443d2eb1afe99c
+      internalID: 117939271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_38
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 399
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf211da59c7ca5459b4da766b6c2f9e
+      internalID: 356937408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_39
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 399
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a95f5f3c9682e40829ae536552008f
+      internalID: -723887374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_40
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 399
+        width: 66
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ed742851d3e11468485f33906e699b
+      internalID: -759392339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_41
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 399
+        width: 71
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae54ba258f81f8a439b20eaa8499fb43
+      internalID: 794752517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_42
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 399
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47b705a2356336428aaa436b896de54
+      internalID: -232137836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_43
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 400
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6caeef623dc36a4f9a94854d3481dfb
+      internalID: -577445144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_44
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 399
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c684e09caab744a9cca231e2383466
+      internalID: 541102514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_45
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 398
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9651973b04c95ef4ea1f3e478f584949
+      internalID: 416522955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_46
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 336
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde4d79947b1bd94a97e927fa4b37878
+      internalID: 918654493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_47
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 336
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51990df9a043a9344ae5591e26cd1d3f
+      internalID: 274030685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_48
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 336
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe519b83899c73429fc9dec5a0d7b63
+      internalID: -864788258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_49
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 336
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7380c7a837bc8f5459584de45e465f04
+      internalID: -1105268596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_50
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 336
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547e7d9d47d8f51478b4dd488e88509c
+      internalID: 295430294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_51
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 336
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6c97d718ced2a45b64886c0d39ab9e
+      internalID: 501639997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_52
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 336
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6930403b71d5386438c4849586601db2
+      internalID: -1834090218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_53
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 336
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4081fc69874151c4d9ddbf0295699aab
+      internalID: 503951508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_54
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 336
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43925a507b49a95468182254f4386334
+      internalID: 382375922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_55
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 336
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54528b32a6300d545ba4e1dbb40ca181
+      internalID: 1748354521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_56
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 348
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50306caefd0ea024c87569b463c21e77
+      internalID: 734808756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_57
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 273
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180d85b5996e24d49bf3c5007767b16d
+      internalID: -1141050130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_58
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 273
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894c57c518e60984cb0229f69eb9115a
+      internalID: 1374149228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_59
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 273
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31ee5b4e52de594abbe789fbae901d7
+      internalID: -1603231300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_60
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 273
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4fc36654d9d234782672a4e19e7e93
+      internalID: -486586305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_61
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 271
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00008721c91886a4cac46667d8b38e40
+      internalID: 1030903501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_62
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 271
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f116676af1d39d45a235e05131eacb8
+      internalID: 1360620512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_63
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 271
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9b45d17d6a9ec46a4f75891ff7afcd
+      internalID: -1546390569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_64
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 271
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42885802d6e1954e956f09a3505148b
+      internalID: 292620433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_65
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 266
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15e56735a16fe0478d4db8d51177e1b
+      internalID: -1594373904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_66
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 266
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec0944706c790a4aa8e4257f3713684
+      internalID: 1231492192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_67
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 264
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e3de340e15f8045949b32c363fddb3
+      internalID: -477355646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_68
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 266
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee418c0e9af7fe439eabc5102540387
+      internalID: 1127800189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_69
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 207
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9361af1c57959fb49b75a2b9a77dd581
+      internalID: -1697150545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_70
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 207
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d6d4492215d704c81bf25aa515400c
+      internalID: -811293760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_71
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 207
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bf803420f873e4099848f0eab977a3
+      internalID: 651507046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_72
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 207
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606878d98a7d5da4ea6096c8d23ad291
+      internalID: -1463985875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_73
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 198
+        width: 36
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a056a5d72f45bb49a0d4b7114d3cf13
+      internalID: -1818104570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_74
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 192
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b93ab8024ab4b64d895aa2019f449f6
+      internalID: -1643249149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_75
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 198
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0a9958a4cc1c74ca34f7c9d2fa63f4
+      internalID: -1992155104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_76
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 192
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c838ec07fbcf84e93d0390ce19e9f7
+      internalID: 475391372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_77
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 197
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83df102629bf2b47913cd30dae7b1c6
+      internalID: -5719831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_78
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 197
+        width: 62
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde0edbc1bf93cf4080354314e7545a7
+      internalID: 535243052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_79
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 195
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86291c5df92bf3049b8015d1b34ba6fa
+      internalID: -1500544111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_80
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 195
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a713576af308b24095ea3ce83b15000
+      internalID: 962498351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_81
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 144
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faaec46407eb1244a977812e73b1685
+      internalID: 733828990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_82
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 144
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6982928890cdf649abce19cb24400fe
+      internalID: -1088404875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_83
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 144
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77136a313945de146b4ddd7373a2f7f4
+      internalID: -1254375423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_84
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 144
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d27bcf76f6de154980e213a5ce06e89
+      internalID: -278063509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_85
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 117
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b697d33361756c41b35f228e5a63580
+      internalID: -300724465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_86
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 111
+        width: 47
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c836f1fa33b4f64291274bfaed834de
+      internalID: -65020000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_87
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 116
+        width: 38
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb92ff89ff81c7641aa9c42ff70a80ac
+      internalID: -2044037678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_88
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 110
+        width: 38
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470d938a6790e9d49b40bda65a548e50
+      internalID: -1741479278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_89
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 80
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f5e3f40223bb5499a7881af2669245
+      internalID: 1986720027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_90
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 80
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc209ddace699ed458dec7a3fe2ec961
+      internalID: -1892242277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_91
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 80
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5504739000be1a547a20f0e10076f2bb
+      internalID: -200511118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_92
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 80
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a70ac128da6b94ea97ebb068e913f9
+      internalID: -340478823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_93
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 80
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f968b5f32d93346a041cf2600f553e
+      internalID: -1835690056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_94
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 80
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b28386137ac9f041a92f035ce9bccd9
+      internalID: -688604963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_95
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 14
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb623ec881e6d140985b050c2fe8fc4
+      internalID: 1267376803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_96
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 15
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e07904d9c33653468552308ecba8b7d
+      internalID: -390461128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_97
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 14
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf595ea726b70fd4ab60474c44bc49de
+      internalID: -454876872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_98
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 13
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a78f1c6807f29488a89a16bbd48a9a
+      internalID: -1910010332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_99
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 6
+        width: 34
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e42ef45481406f4c82dabace50674aa
+      internalID: -463840637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_100
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 12
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4427fbc6beee684985fcf9749a690e9
+      internalID: 1243391227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_101
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 9
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f9ea2547cc6f94c8d18f40809ba681
+      internalID: -1226569898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_102
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 9
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845c74e79cdf87348997adee7c3fd89c
+      internalID: 1352890934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_103
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 14
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea928821b43218f478e6be9177b45785
+      internalID: -542616431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_104
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 14
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf6971ac5859094f8d0b6f607c0e976
+      internalID: -1271120763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_105
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 14
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4ef3df80a9d7c459f6b98755d040a3
+      internalID: -1139928240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_106
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 14
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24671c82f47af946a4d0418a946e490
+      internalID: 365914021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_107
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 14
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccafac44cfb238c4a86d9fdf92693d08
+      internalID: -1719534453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_107: -1719534453
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_87: -2044037678
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_20: -1050530404
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_3: 277286694
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_9: 678386437
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_50: 295430294
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_74: -1643249149
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_93: -1835690056
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_59: -1603231300
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_30: 1375751565
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_46: 918654493
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_15: -151038187
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_58: 1374149228
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_43: -577445144
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_78: 535243052
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_49: -1105268596
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_11: -129112978
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_104: -1271120763
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_42: -232137836
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_0: 1279496165
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_29: 1174690998
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_91: -200511118
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_32: 90337555
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_44: 541102514
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_76: 475391372
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_28: 1267480374
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_72: -1463985875
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_81: 733828990
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_70: -811293760
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_73: -1818104570
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_10: 1592507186
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_63: -1546390569
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_48: -864788258
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_84: -278063509
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_100: 1243391227
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_25: -2040679435
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_99: -463840637
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_82: -1088404875
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_13: 453327207
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_90: -1892242277
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_37: 117939271
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_24: 1440310222
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_47: 274030685
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_60: -486586305
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_71: 651507046
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_94: -688604963
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_26: -1390875928
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_101: -1226569898
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_27: -735449294
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_92: -340478823
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_80: 962498351
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_85: -300724465
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_14: 2140147275
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_16: -1894209878
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_66: 1231492192
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_31: 1150787140
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_52: -1834090218
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_67: -477355646
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_35: -158202797
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_77: -5719831
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_96: -390461128
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_17: 63322679
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_21: -156886531
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_61: 1030903501
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_34: 1659288635
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_62: 1360620512
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_95: 1267376803
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_97: -454876872
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_5: 379477789
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_4: -17567857
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_55: 1748354521
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_79: -1500544111
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_89: 1986720027
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_56: 734808756
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_57: -1141050130
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_75: -1992155104
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_54: 382375922
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_64: 292620433
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_18: 1739716107
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_41: 794752517
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_68: 1127800189
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_69: -1697150545
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_105: -1139928240
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_2: 183410780
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_86: -65020000
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_53: 503951508
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_106: 365914021
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_83: -1254375423
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_22: -205526665
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_36: -1390130134
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_33: 1835939114
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_19: -1019812929
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_39: -723887374
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_103: -542616431
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_38: 356937408
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_51: 501639997
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_23: 815526948
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_102: 1352890934
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_8: 93298502
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_7: 2090751553
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_88: -1741479278
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_45: 416522955
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_12: -2137785482
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_65: -1594373904
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_1: 232071039
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_40: -759392339
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_6: -1449288819
+      professor_brains_sprites__dan_the_man_custom__by_kooltimyt_de8e85b_98: -1910010332
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
