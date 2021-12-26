@@ -16,6 +16,10 @@ public class SpriteVelocityFlipper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        sr.flipX = rb2d.velocity.x > 0f;
+        if(rb2d.velocity.x != 0f)
+        {
+            sr.flipX = rb2d.velocity.x > 0f;
+        }
+        
     }
 }

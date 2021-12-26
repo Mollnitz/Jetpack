@@ -23,6 +23,9 @@ public class PlayerMovementScript : MonoBehaviour
     [SerializeField]
     private float jetpackVerticalSpeedLimit = 6f;
 
+    [SerializeField]
+    private bool slowMode = false;
+
     public static PlayerStateEvent PlayerStateEvent;
     public static JetpackEvent JetpackEvent;
 
@@ -40,7 +43,7 @@ public class PlayerMovementScript : MonoBehaviour
     
     private float jumpMod = 6f;
     private float speedCap = 3f;
-    private float sprintAmp = 1.67f;
+    private float sprintAmp = 1.55f;
 
     [Range(-0.2f, 1.2f)] [SerializeField]
     private float boost = 1f;
@@ -83,27 +86,6 @@ public class PlayerMovementScript : MonoBehaviour
         handleX(x);
         handleJump();
         handleBoost();
-
-        switch (state)
-        {
-            case PlayerState.Standing:
-                
-                break;
-            case PlayerState.Walking:
-                
-                break;
-            case PlayerState.Sprinting:
-                
-                break;
-            case PlayerState.Jump:
-                break;
-            case PlayerState.DoubleJump:
-                break;
-            case PlayerState.Boosting:
-                break;
-            default:
-                break;
-        }
     }
 
     private void handleBoost()
@@ -131,7 +113,15 @@ public class PlayerMovementScript : MonoBehaviour
                 if (boostDrain && boost >= 0)
                 {
                     boost -= 1f * Time.deltaTime;
-                    rb2d.AddForce(Vector2.up * 2f);
+                    if(rb2d.velocity.y < 0f)
+                    {
+                        rb2d.AddForce(Vector2.up * (slowMode ? 3.5f : 7f));
+                    }
+                    else
+                    {
+                        rb2d.AddForce(Vector2.up * (slowMode ? 2f : 3.5f));
+                    }
+                    
                 }
                 else if ((state == PlayerState.Standing || state == PlayerState.Walking) && !boostDrain && boost <= 1)
                 {
@@ -150,13 +140,19 @@ public class PlayerMovementScript : MonoBehaviour
         //Handles sprinting
         float _speedCap = state == PlayerState.Sprinting ? speedCap * sprintAmp : speedCap;
         // Debug.Log(rb2d.velocity.x); //Wall kick velocity is ~6
-        if( Mathf.Abs(rb2d.velocity.x) + Mathf.Abs(x) < _speedCap)
+        if( Mathf.Abs(rb2d.velocity.x + x) < _speedCap)
         {
             rb2d.AddForce(Vector2.right * 3 * x);
         }
-        else if( (rb2d.velocity.x > _speedCap && x < 0) || (rb2d.velocity.x < _speedCap && x > 0))
+        else if((state == PlayerState.Jump || state == PlayerState.DoubleJump || state == PlayerState.Boosting) && (rb2d.velocity.x > _speedCap && x < 0) || (rb2d.velocity.x < -_speedCap && x > 0))
         {
-            rb2d.AddForce(Vector2.right * x, ForceMode2D.Force);
+            rb2d.AddForce(Vector2.right * (slowMode ? 1f : 3f) * x, ForceMode2D.Force);
+        }
+
+        //don't look at me
+        if(state == PlayerState.Walking && x == 0f)
+        {
+            rb2d.velocity = new Vector2(0, 0);
         }
         
     }
@@ -247,6 +243,8 @@ public class PlayerMovementScript : MonoBehaviour
         {
             PlayerStateEvent.Invoke(tempState);
             anim.SetInteger("State", (int)tempState);
+            anim.SetTrigger("Changed");
+            
         }
 
         return tempState;
