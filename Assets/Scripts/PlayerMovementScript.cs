@@ -138,18 +138,22 @@ public class PlayerMovementScript : MonoBehaviour
     private void handleX(float x)
     {
         //Handles sprinting
-        float _speedCap = state == PlayerState.Sprinting ? speedCap * sprintAmp : speedCap;
+        float _speedCap = speedCap * sprintAmp;
         // Debug.Log(rb2d.velocity.x); //Wall kick velocity is ~6
-        if( Mathf.Abs(rb2d.velocity.x + x) < _speedCap)
+        if (state != PlayerState.DoubleJump && Mathf.Abs(rb2d.velocity.x + x) < _speedCap)
         {
             rb2d.AddForce(Vector2.right * 3 * x);
         }
-        else if((state == PlayerState.Jump || state == PlayerState.DoubleJump || state == PlayerState.Boosting) && (rb2d.velocity.x > _speedCap && x < 0) || (rb2d.velocity.x < -_speedCap && x > 0))
+        else if((state == PlayerState.Jump || state == PlayerState.DoubleJump || state == PlayerState.Boosting) && (rb2d.velocity.x > speedCap && x < 0) || (rb2d.velocity.x < -speedCap && x > 0))
         {
             rb2d.AddForce(Vector2.right * (slowMode ? 1f : 3f) * x, ForceMode2D.Force);
         }
+        else if(state == PlayerState.DoubleJump && Mathf.Abs(rb2d.velocity.x + x) < speedCap)
+        {
+            rb2d.AddForce(Vector2.right * 3 * x);
+        }
 
-        //don't look at me
+        
         if(state == PlayerState.Walking && x == 0f)
         {
             rb2d.velocity = new Vector2(0, 0);
