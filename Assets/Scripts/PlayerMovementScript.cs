@@ -129,11 +129,11 @@ public class PlayerMovementScript : MonoBehaviour
                     boost -= 1f * Time.deltaTime;
                     if(rb2d.velocity.y < 0.1f)
                     {
-                        rb2d.AddForce(Vector2.up * (slowMode ? 4f : 7f), ForceMode2D.Impulse);
+                        rb2d.AddForce(Vector2.up * Time.deltaTime * 350f * (slowMode ? 4f : 7f), ForceMode2D.Impulse);
                     }
                     else
                     {
-                        rb2d.AddForce(Vector2.up * (slowMode ? 2f : 3.5f));
+                        rb2d.AddForce(Vector2.up * Time.deltaTime * 350f * (slowMode ? 2f : 3.5f));
                     }
                     
                     if(boost < 0)
@@ -160,19 +160,19 @@ public class PlayerMovementScript : MonoBehaviour
         if ( (state != PlayerState.DoubleJump || state != PlayerState.Jump) && Mathf.Abs(rb2d.velocity.x + x) < highSpeedCap)
         {
             //Debug.Log("1");
-            rb2d.AddForce(Vector2.right * 3 * x);
+            rb2d.AddForce(Vector2.right * 1050f * x * Time.deltaTime);
         }
         //Handles movement in the air if speed is too high (I.e. after a walljump)
         else if((state == PlayerState.Jump || state == PlayerState.DoubleJump || state == PlayerState.Boosting) && (rb2d.velocity.x > lowSpeedCap && x < 0) || (rb2d.velocity.x < -lowSpeedCap && x > 0))
         {
             //Debug.Log("2");
-            rb2d.AddForce(Vector2.right * x, ForceMode2D.Force);
+            rb2d.AddForce(Vector2.right * 350f * x * Time.deltaTime, ForceMode2D.Force);
         }
         //Handles movement in the air below the high speedcap
         else if((state == PlayerState.DoubleJump || state == PlayerState.Jump) && Mathf.Abs(rb2d.velocity.x + x) < lowSpeedCap)
         {
             //Debug.Log("3");
-            rb2d.AddForce(Vector2.right * 3 * x);
+            rb2d.AddForce(Vector2.right * 1050f * x * Time.deltaTime);
         }
 
         
