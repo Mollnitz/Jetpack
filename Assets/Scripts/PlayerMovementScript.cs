@@ -41,9 +41,12 @@ public class PlayerMovementScript : MonoBehaviour
     private bool sprinting = false;
     private bool doubleJumpUsed = false;
     
-    private float jumpMod = 6f;
-    private float speedCap = 3f;
-    private float sprintAmp = 1.55f;
+    private const float jumpMod = 6f;
+    private const float lowSpeedCap = 3f;
+    private const float sprintAmp = 1.55f;
+
+    //Introduces the high speedcap
+    private const float highSpeedCap = lowSpeedCap * sprintAmp;
 
     [Range(-0.2f, 1.2f)] [SerializeField]
     private float boost = 1f;
@@ -90,14 +93,25 @@ public class PlayerMovementScript : MonoBehaviour
 
     private void handleBoost()
     {
-        if (Input.GetKeyDown(KeyCode.LeftControl))
+        if (Input.GetKeyDown(KeyCode.LeftControl) && boost > 0f)
         {
-            boostDrain = true;
-            ps.Play();
+            AlterDrain(true);
         }
         else if (Input.GetKeyUp(KeyCode.LeftControl))
         {
-            boostDrain = false;
+            AlterDrain(false);
+        }
+    }
+
+    private void AlterDrain(bool state)
+    {
+        boostDrain = state;
+        if (state)
+        {
+            ps.Play();
+        }
+        else
+        {
             ps.Stop();
         }
     }
@@ -113,15 +127,19 @@ public class PlayerMovementScript : MonoBehaviour
                 if (boostDrain && boost >= 0)
                 {
                     boost -= 1f * Time.deltaTime;
-                    if(rb2d.velocity.y < 0f)
+                    if(rb2d.velocity.y < 0.1f)
                     {
-                        rb2d.AddForce(Vector2.up * (slowMode ? 3.5f : 7f));
+                        rb2d.AddForce(Vector2.up * (slowMode ? 4f : 7f), ForceMode2D.Impulse);
                     }
                     else
                     {
                         rb2d.AddForce(Vector2.up * (slowMode ? 2f : 3.5f));
                     }
                     
+                    if(boost < 0)
+                    {
+                        AlterDrain(false);
+                    }
                 }
                 else if ((state == PlayerState.Standing || state == PlayerState.Walking) && !boostDrain && boost <= 1)
                 {
@@ -137,19 +155,23 @@ public class PlayerMovementScript : MonoBehaviour
 
     private void handleX(float x)
     {
-        //Handles sprinting
-        float _speedCap = speedCap * sprintAmp;
-        // Debug.Log(rb2d.velocity.x); //Wall kick velocity is ~6
-        if (state != PlayerState.DoubleJump && Mathf.Abs(rb2d.velocity.x + x) < _speedCap)
+        //Debug.Log(rb2d.velocity.x);
+        //Handles movement on ground and in the air
+        if ( (state != PlayerState.DoubleJump || state != PlayerState.Jump) && Mathf.Abs(rb2d.velocity.x + x) < highSpeedCap)
         {
+            //Debug.Log("1");
             rb2d.AddForce(Vector2.right * 3 * x);
         }
-        else if((state == PlayerState.Jump || state == PlayerState.DoubleJump || state == PlayerState.Boosting) && (rb2d.velocity.x > speedCap && x < 0) || (rb2d.velocity.x < -speedCap && x > 0))
+        //Handles movement in the air if speed is too high (I.e. after a walljump)
+        else if((state == PlayerState.Jump || state == PlayerState.DoubleJump || state == PlayerState.Boosting) && (rb2d.velocity.x > lowSpeedCap && x < 0) || (rb2d.velocity.x < -lowSpeedCap && x > 0))
         {
-            rb2d.AddForce(Vector2.right * (slowMode ? 1f : 3f) * x, ForceMode2D.Force);
+            //Debug.Log("2");
+            rb2d.AddForce(Vector2.right * x, ForceMode2D.Force);
         }
-        else if(state == PlayerState.DoubleJump && Mathf.Abs(rb2d.velocity.x + x) < speedCap)
+        //Handles movement in the air below the high speedcap
+        else if((state == PlayerState.DoubleJump || state == PlayerState.Jump) && Mathf.Abs(rb2d.velocity.x + x) < lowSpeedCap)
         {
+            //Debug.Log("3");
             rb2d.AddForce(Vector2.right * 3 * x);
         }
 
@@ -171,21 +193,16 @@ public class PlayerMovementScript : MonoBehaviour
                 if (left)
                 {
                     rb2d.velocity = new Vector2(0, 0);
-                    rb2d.AddForce((Vector2.up + Vector2.right) * jumpMod, ForceMode2D.Impulse);
+                    rb2d.AddForce((Vector2.up * 0.9f + Vector2.right * 1.3f) * jumpMod, ForceMode2D.Impulse);
                 }
                 else if (right)
                 {
                     rb2d.velocity = new Vector2(0, 0);
-                    rb2d.AddForce((Vector2.up + -Vector2.right) * jumpMod, ForceMode2D.Impulse);
+                    rb2d.AddForce((Vector2.up * 0.9f + -Vector2.right * 1.3f) * jumpMod, ForceMode2D.Impulse);
                 }
             }
             else if (!doubleJumpUsed)
             {
-                //Velocity reset if you are falling and jump again
-                if(rb2d.velocity.y < 0f)
-                {
-                    
-                }
                 rb2d.velocity = new Vector2(rb2d.velocity.x, 0f);
                 rb2d.AddForce(Vector2.up * jumpMod , ForceMode2D.Impulse);
             }
@@ -194,7 +211,8 @@ public class PlayerMovementScript : MonoBehaviour
             {
                 gc.colliding = false;
             }
-            else if (!doubleJumpUsed)
+            //If you are not attached to a wall; expend the double jump
+            else if (!left && !right && !doubleJumpUsed)
             {
                 doubleJumpUsed = true;
             }
