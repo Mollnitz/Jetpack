@@ -7746,6 +7746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2099881209080359885, guid: f01f189ce96be6049a916c4ebe2fb762, type: 3}
+      propertyPath: jetpackVerticalSpeedLimit
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f01f189ce96be6049a916c4ebe2fb762, type: 3}
 --- !u!1001 &3613790635932252394

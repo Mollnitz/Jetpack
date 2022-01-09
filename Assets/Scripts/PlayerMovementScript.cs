@@ -21,7 +21,7 @@ public class JetpackEvent : UnityEvent<float> { };
 public class PlayerMovementScript : MonoBehaviour
 {
     [SerializeField]
-    private float jetpackVerticalSpeedLimit = 6f;
+    private float jetpackVerticalSpeedLimit = 4f;
 
     [SerializeField]
     private bool slowMode = false;
@@ -48,10 +48,13 @@ public class PlayerMovementScript : MonoBehaviour
     //Introduces the high speedcap
     private const float highSpeedCap = lowSpeedCap * sprintAmp;
 
+    private const float fixedDeltaFactor = 500f;
+    private const float deltaFactor = 50f;
     [Range(-0.2f, 1.2f)] [SerializeField]
     private float boost = 1f;
     [SerializeField]
     private bool boostDrain = false;
+    bool firstDrain = false;
     Coroutine boostHandler;
 
     private void Awake()
@@ -83,10 +86,16 @@ public class PlayerMovementScript : MonoBehaviour
         
     }
 
+    private void FixedUpdate()
+    {
+        handleX(x);
+    }
+
+
     private void handleInput(PlayerState state)
     {
 
-        handleX(x);
+        
         handleJump();
         handleBoost();
     }
@@ -118,9 +127,10 @@ public class PlayerMovementScript : MonoBehaviour
 
     IEnumerator BoostDrainer()
     {
+        
         while (true)
         {
-            yield return new WaitForEndOfFrame();
+            yield return new WaitForFixedUpdate();
             //Jetpack only activates if speed isn't too high already.
             if(rb2d.velocity.y <= jetpackVerticalSpeedLimit)
             {
@@ -129,11 +139,19 @@ public class PlayerMovementScript : MonoBehaviour
                     boost -= 1f * Time.deltaTime;
                     if(rb2d.velocity.y < 0.1f)
                     {
-                        rb2d.AddForce(Vector2.up * Time.deltaTime * 350f * (slowMode ? 4f : 7f), ForceMode2D.Impulse);
+                        rb2d.AddForce(Vector2.up * Time.fixedDeltaTime * deltaFactor * (slowMode ? 10f : 7f), firstDrain ? ForceMode2D.Impulse : ForceMode2D.Force);
+                        if (firstDrain)
+                        {
+                            firstDrain = false;
+                        }
                     }
                     else
                     {
-                        rb2d.AddForce(Vector2.up * Time.deltaTime * 350f * (slowMode ? 2f : 3.5f));
+                        rb2d.AddForce(Vector2.up * Time.fixedDeltaTime * deltaFactor * (slowMode ? 15f : 3.5f));
+                        if (!firstDrain)
+                        {
+                            firstDrain = true;
+                        }
                     }
                     
                     if(boost < 0)
@@ -155,24 +173,25 @@ public class PlayerMovementScript : MonoBehaviour
 
     private void handleX(float x)
     {
-        //Debug.Log(rb2d.velocity.x);
         //Handles movement on ground and in the air
+        
         if ( (state != PlayerState.DoubleJump || state != PlayerState.Jump) && Mathf.Abs(rb2d.velocity.x + x) < highSpeedCap)
         {
             //Debug.Log("1");
-            rb2d.AddForce(Vector2.right * 1050f * x * Time.deltaTime);
+            
+            rb2d.AddForce(Vector2.right * 3 * fixedDeltaFactor * x * Time.fixedDeltaTime);
         }
         //Handles movement in the air if speed is too high (I.e. after a walljump)
         else if((state == PlayerState.Jump || state == PlayerState.DoubleJump || state == PlayerState.Boosting) && (rb2d.velocity.x > lowSpeedCap && x < 0) || (rb2d.velocity.x < -lowSpeedCap && x > 0))
         {
             //Debug.Log("2");
-            rb2d.AddForce(Vector2.right * 350f * x * Time.deltaTime, ForceMode2D.Force);
+            rb2d.AddForce(Vector2.right * fixedDeltaFactor * x * Time.fixedDeltaTime, ForceMode2D.Force);
         }
         //Handles movement in the air below the high speedcap
         else if((state == PlayerState.DoubleJump || state == PlayerState.Jump) && Mathf.Abs(rb2d.velocity.x + x) < lowSpeedCap)
         {
             //Debug.Log("3");
-            rb2d.AddForce(Vector2.right * 1050f * x * Time.deltaTime);
+            rb2d.AddForce(Vector2.right * 3 * fixedDeltaFactor * x * Time.fixedDeltaTime);
         }
 
         
@@ -193,18 +212,23 @@ public class PlayerMovementScript : MonoBehaviour
                 if (left)
                 {
                     rb2d.velocity = new Vector2(0, 0);
-                    rb2d.AddForce((Vector2.up * 0.9f + Vector2.right * 1.3f) * jumpMod, ForceMode2D.Impulse);
+                    rb2d.AddForce((Vector2.up * 0.9f + Vector2.right * 1.3f) * Time.fixedDeltaTime * deltaFactor * jumpMod, ForceMode2D.Impulse);
+                    Debug.Log(rb2d.velocity); //(7.80, 5.40)
+
+
+
                 }
                 else if (right)
                 {
                     rb2d.velocity = new Vector2(0, 0);
-                    rb2d.AddForce((Vector2.up * 0.9f + -Vector2.right * 1.3f) * jumpMod, ForceMode2D.Impulse);
+                    rb2d.AddForce((Vector2.up * 0.9f + -Vector2.right * 1.3f) * Time.fixedDeltaTime * deltaFactor * jumpMod, ForceMode2D.Impulse);
+                    Debug.Log(rb2d.velocity); //(7.80, 5.40)
                 }
             }
             else if (!doubleJumpUsed)
             {
                 rb2d.velocity = new Vector2(rb2d.velocity.x, 0f);
-                rb2d.AddForce(Vector2.up * jumpMod , ForceMode2D.Impulse);
+                rb2d.AddForce(Vector2.up * deltaFactor * Time.fixedDeltaTime * jumpMod , ForceMode2D.Impulse);
             }
 
             if (gc.colliding)
@@ -225,7 +249,11 @@ public class PlayerMovementScript : MonoBehaviour
         if (gc.colliding)
         {
             doubleJumpUsed = false;
-            if(rb2d.velocity.x != 0)
+            if (!firstDrain)
+            {
+                firstDrain = true;
+            }
+            if (rb2d.velocity.x != 0)
             {
                 if(sprinting)
                 {
